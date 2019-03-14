@@ -1,3 +1,5 @@
+package day01;
+
 public class Vehicle {
     public int doors;
     public int wheels;
