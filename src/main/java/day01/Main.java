@@ -126,6 +126,16 @@ public class Main {
             System.out.println("What we need is a " + phrase);
         }
 
+        /*System.out.println("What is your name?");
+        String name = in.nextLine();
+        in.nextLine();
+        while(name == "Alice" || "Bob"){
+            System.out.println("Hello! " + name);
+        }else{
+
+        }
+        System.out.println(name);*/
+
 
 
     }
