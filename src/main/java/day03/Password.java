@@ -9,28 +9,24 @@ public class Password {
 
     public String enterPassword() {
 
-        System.out.println("Please enter password");
         Scanner in = new Scanner(System.in);
+        System.out.println("Please enter username");
+        String u = in.nextLine();
+        System.out.println("Please enter password");
 
         int count = 1;
-        while(count <= 6){
+        while(count <= 4){
 
-            String p = in.nextLine();
+            p = in.nextLine();
 
             if(p == "TGIF"){
-                System.out.println("good job");
+                System.out.println("You logged in successfully");
                 System.out.println("You entered your password " + count + " times.");
-                break;
-            }else if(p != "TGIF") {
+            }else{
                 System.out.println("error");
-                count--;
+            }count++;
             }
-            else if(count == -4){
-                System.out.println("locked out");
-                break;
-            }
-
-        }
+        System.out.println("Contact the system admin. It took you " + count + " tries.");
         return p;
+        }
     }
-}

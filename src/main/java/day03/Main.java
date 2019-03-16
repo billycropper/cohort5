@@ -26,5 +26,8 @@ public class Main {
 
         Password enter = new Password();
         enter.enterPassword();
+
+        TwoInputs math = new TwoInputs();
+        math.solve();
     }
 }
