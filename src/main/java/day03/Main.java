@@ -29,5 +29,14 @@ public class Main {
 
         TwoInputs math = new TwoInputs();
         math.solve();
+
+        Person damon = new Person();
+        System.out.println(damon);
+
+        Person david = new Person(24, "David", "Frisbee", "Harvest market", 10);
+        david.print();
+
+        Reverse wow = new Reverse();
+        wow.back();
     }
 }

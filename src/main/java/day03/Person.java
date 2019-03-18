@@ -31,9 +31,8 @@ public class Person {
                 '}';
     }
 
-    public String print(){
+    public void print(){
 
         System.out.println("My name is " + name + " and I am " + age + " years old. My Favorite sports is " + favoritesport + " and by this time next year my occupation will be " + job + " meaning I could be making up to " + salary + " yearly!");
-
     }
 }
