@@ -12,19 +12,27 @@ public class Password {
         Scanner us = new Scanner(System.in);
         System.out.println("Please enter username");
         String u = us.nextLine();
-        System.out.println("Please enter password");
+        System.out.println("Hello " + u);
+        String p;
 
-        int count = 1;
-        while(count <= 4){
+        int count = 0;
+        int attempt = 0;
 
-            String p = us.nextLine();
+        do{
+            System.out.println("Please enter password");
+            p = us.nextLine();
+            attempt++;
+            count += 1;
+        }
 
-            if(p == "TGIF"){
+        while(!"TGIF".equals(p) && attempt < 4);{
+
+            if(p.equals("TGIF")){
                 System.out.println("You logged in successfully, you entered your password " + count + " times.");
             }else{
-                System.out.println("error" + p);
-            }count++;
+                System.out.println("Contact the system admin. It took you " + count + " tries.");
             }
-        System.out.println("Contact the system admin. It took you " + count + " tries.");
+
+            }
         }
     }
