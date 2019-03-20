@@ -39,13 +39,6 @@ public class Main {
         Reverse wow = new Reverse();
         wow.back();
 
-        //textbook
-        boolean ex = true;
-        char ex1 = 'a';
-        byte ex2 = 3;
-        short ex3 = 45;
-        
-
 
     }
 }
