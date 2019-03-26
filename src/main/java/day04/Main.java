@@ -13,11 +13,24 @@ public class Main {
 
         String firstName = "Leon";
         String lastName = "Hunter";
-        Double[] examScores = {100.0, 95.0, 123.0, 96.0};
+        Double[] examScores = { };
 
         Student student = new Student(firstName, lastName, examScores);
+        /*String output = student.getExamScores();
+        System.out.println(output);*/
+
+        student.addExamScore(100.0);
         String output = student.getExamScores();
         System.out.println(output);
+
+        Discount calc = new Discount();
+        calc.calculateDiscount(2000.0, 27.3);
+
+        //do{
+        //    int i = 0;
+        //    System.out.println(i);
+        //    i+=2;
+        //}
 
 
     }

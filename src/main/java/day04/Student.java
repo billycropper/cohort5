@@ -1,5 +1,8 @@
 package day04;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+
 public class Student {
 
     private String firstName;
@@ -40,6 +43,14 @@ public class Student {
             scores = scores + x + " \n";
         }
         return scores;
+    }
+    public double addExamScore(double examScore){
+        String scores = "";
+        ArrayList<Double> arrayList = new ArrayList<>(Arrays.asList(examScores));
+        arrayList.add(examScore);
+        //System.out.println(arrayList);
+        //int x = arrayList[0].intValue();
+        return examScore;
     }
 
 }
