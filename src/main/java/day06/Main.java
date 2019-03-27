@@ -47,5 +47,33 @@ public class Main {
         mort.setYears(30.0);
         System.out.println("The total price of the house is " + mort.calculateMortgage());
 
+        Artists person = new Artists();
+        person.setSongs("Hello");
+        person.getSongs();
+//        person.setSongs("This is the songs");
+//        person.getSongs();
+
+        System.out.println(person.getSongs());
+        System.out.println(person.artistSongs());
+
+        Employee person1 = new Employee();
+        person1.setSalary(1000);
+        person1.getSalary();
+        person1.setName("William");
+        person1.getName();
+        System.out.println(person1.raiseSalary(100));
+//        System.out.println(person1.toString());
+//        person1.printName();
+//        person1.printName("Billy");
+        Manager person2 = new Manager("Scrum master");
+        person2.setManagerTitle("Scrum master");
+        person2.getManagerTitle();
+//        System.out.println(person2.getManagerTitle());
+        person2.setSalary(1000);
+        System.out.println(person2.raiseSalary(5000));
+        person2.printName("Loser");
+        System.out.println(person1.toString());
+        System.out.println(person2.toString());
+
     }
 }
