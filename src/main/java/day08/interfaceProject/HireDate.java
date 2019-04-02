@@ -5,9 +5,7 @@ public class HireDate {
     private int month;
     private int day;
     private int year;
-
-    public HireDate() {
-    }
+    private String str;
 
     public int getMonth() {
         return month;
@@ -33,7 +31,16 @@ public class HireDate {
         this.year = year;
     }
 
+    public String getStr() {
+        return str;
+    }
+
+    public void setStr(String str) {
+        this.str = str;
+    }
+
     public String makeDate(int month, int day, int year){
-        return month + "-" + day + "-" + year;
+        str = month + "-" + day + "-" + year;
+        return str;
     }
 }

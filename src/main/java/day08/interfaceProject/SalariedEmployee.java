@@ -13,4 +13,15 @@ public class SalariedEmployee extends Employee {
     public double calculatePay(){
         return weeklySalary;
     }
+
+    @Override
+    public String toString() {
+        return  "========================================================================" + '\n' +
+                "Employee Type: SalariedEmployee" + '\n' +
+                "First Name: " + getFirstName() + '\n' +
+                "Last name: " + getLastName() + '\n' +
+                "Hire date: " + getStr() + '\n' +
+                "Earned: " + calculatePay() + '\n' +
+                "========================================================================";
+    }
 }
