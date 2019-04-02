@@ -1,4 +1,10 @@
 package day08.animalHierarchy;
 
-public class Feline extends Animal {
+public abstract class Feline extends Animal {
+
+    public Feline(String name, String food) {
+        super(name, food);
+    }
+
+    public abstract String eat();
 }

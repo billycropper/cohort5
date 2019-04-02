@@ -16,10 +16,10 @@ public class Main {
             System.out.println(animal.eat());
         }
 
-//        IGreet[] iGreet = new IGreet[]{dog, roboDog};
-//        for(IGreet greet : iGreet){
-//            System.out.println(iGreet.g);
-//        }
+        IGreet[] iGreet = new IGreet[]{dog, roboDog};
+        for(IGreet greet : iGreet){
+            greet.greetMaster();
+        }
 
     }
 }
