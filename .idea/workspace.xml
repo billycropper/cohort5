@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="70f26e52-5a80-49f3-9488-999202a9ef2c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/dev.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/day08/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day08/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/day08/interfaceProject/BasePlusCommissionedEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day08/interfaceProject/BasePlusCommissionedEmployee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/day08/interfaceProject/CommissionedEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day08/interfaceProject/CommissionedEmployee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/day08/interfaceProject/HireDate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day08/interfaceProject/HireDate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/day08/interfaceProject/HourlyEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day08/interfaceProject/HourlyEmployee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/day08/interfaceProject/ICalculate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day08/interfaceProject/ICalculate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/day08/interfaceProject/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day08/interfaceProject/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/day08/interfaceProject/SalariedEmployee.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day08/interfaceProject/SalariedEmployee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/day08/interfaceProject/Supplier.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/day08/interfaceProject/Supplier.class" afterDir="false" />
-    </list>
+    <list default="true" id="70f26e52-5a80-49f3-9488-999202a9ef2c" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -224,8 +209,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="y" value="45" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="77" />
+    <option name="y" value="673" />
     <option name="width" value="1280" />
     <option name="height" value="724" />
   </component>
@@ -294,7 +280,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554225737820" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554293662746" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
   </component>
   <component name="RunDashboard">
@@ -371,7 +357,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="45" width="1280" height="724" extended-state="1" />
+    <frame x="40" y="557" width="1280" height="724" extended-state="0" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
